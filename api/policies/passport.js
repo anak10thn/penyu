@@ -29,7 +29,11 @@ module.exports = function (req, res, next) {
       // Make the user available throughout the frontend
       res.locals.user = req.user;
 
-      next();
+        if(req.options.controller.indexOf('auth')>-1||req.user){
+            next();
+        }else{
+            return res.redirect('/login');
+        }
     });
   });
 };

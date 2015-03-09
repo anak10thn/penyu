@@ -21,7 +21,18 @@
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-less": "0.11.1",
-    "grunt-contrib-coffee": "~0.10.1"
+    "grunt-contrib-coffee": "~0.10.1",
+    "passport-local": "*",
+    "sails-generate-auth": "*",
+    "passport-twitter": "*",
+    "passport-github": "*",
+    "passport-facebook": "*",
+    "passport-google-oauth": "*",
+    "bcryptjs": "*",
+    "passport": "*",
+    "validator": "*",
+    "skipper": "*",
+    "skipper-disk": "*"
   },
   "scripts": {
     "start": "node app.js",

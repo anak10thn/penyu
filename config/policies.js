@@ -51,5 +51,11 @@ module.exports.policies = {
     '*': ['passport'],
     'auth': {
         '*': ['passport']
+    },
+    'upload': {
+        'adv' : true
+    },
+    'grap': {
+	'*': true
     }
 };
